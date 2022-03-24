@@ -26,11 +26,12 @@
     <script>
       const hideFullScreenButton = "";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/webgl.loader.js";
+      const loaderUrl = buildUrl + "/webgl-prod.loader.js";
       const config = {
-        dataUrl: buildUrl + "/webgl.data",
-        frameworkUrl: buildUrl + "/webgl.framework.js",
-        codeUrl: buildUrl + "/webgl.wasm",
+        dataUrl: buildUrl + "/webgl-prod.data",
+        frameworkUrl: buildUrl + "/webgl-prod.framework.js",
+        codeUrl: buildUrl + "/webgl-prod.wasm",
+        symbolsUrl: buildUrl + "/webgl-prod.symbols.json",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Chikai",
         productName: "DAO Town",
